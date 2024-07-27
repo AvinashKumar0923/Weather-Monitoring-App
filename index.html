@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Monitoring System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Monitoring System</h1>
+        <div id="alerts"></div>
+        <div id="weather-data">
+            <h2>Weather Data</h2>
+            <table id="weather-table">
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Main</th>
+                        <th>Temperature (°C)</th>
+                        <th>Feels Like (°C)</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="summary">
+            <h2>Daily Summary</h2>
+            <table id="summary-table">
+                <thead>
+                    <tr>
+                        <th>City</th>
+                        <th>Date</th>
+                        <th>Average Temp (°C)</th>
+                        <th>Max Temp (°C)</th>
+                        <th>Min Temp (°C)</th>
+                        <th>Dominant Condition</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
